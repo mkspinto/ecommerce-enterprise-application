@@ -5,6 +5,7 @@ using static MksStoreEnterprise.Identity.API.Models.UserViewModels;
 
 namespace MksStoreEnterprise.Identity.API.Controllers
 {
+    [ApiController]
     [Route("api/identity")]
     public class AuthController : Controller
     {
